@@ -1,18 +1,30 @@
 <template>
-    <header>
-        <h1>{{title}}</h1>
-    </header>
+    <heade v-on:click="changeTitle">
+        <h1>{{titleX}}</h1>
+    </heade>
 
 </template>
 
 <script>
     export default {
         name: "app-Header",
+        props:{
+          titleX:{
+            type:String
+          }
+        },
         data(){
             return {
-                title:"Vue.js ---- >  Header Demo"
+                title1:"Vue.js ---- >  Header Demo"
+            }
+        },
+        methods:{
+            changeTitle:function () {
+              // this.titleX = "我想喝水"
+                this.$emit("titleChangedX","son to parent !!!!")
             }
         }
+
     }
 </script>
 
