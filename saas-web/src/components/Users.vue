@@ -1,5 +1,6 @@
 <template>
    <div id = "Users">
+      <h1>用户列表</h1>
       <ul>
           <li v-for="user in Users">
                 {{user}}
@@ -20,5 +21,7 @@
 </script>
 
 <style scoped>
-
+  h1{
+    color:blue;
+  }
 </style>

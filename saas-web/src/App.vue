@@ -1,6 +1,7 @@
 <!--模板结构 -->
 <template>
   <div id="app">
+    <app-header></app-header>
     <h1>hello www.youxueyou.cn ！ {{title}}</h1>
     <users-id></users-id>
   </div>
@@ -10,6 +11,7 @@
 
 <script>
 import Users from './components/Users'
+import Header from  './components/Header'
 export default {
   name: 'App',
   data(){
@@ -18,13 +20,14 @@ export default {
     }
   },
   components:{
-    "users-id":Users //注意标签名:users-id
+    "users-id":Users, //注意标签名:users-id
+    "app-header":Header
   }
 }
 </script>
 <!--解决样式 -->
-<style>
-#app {
-
-}
+<style scoped>
+  h1{
+    color:red;
+  }
 </style>

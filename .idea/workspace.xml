@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39880c3-d4e1-410d-8dc0-d83d900eaf78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saas-web/src/components/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saas-web/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas-web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/saas-web/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas-web/src/components/Users.vue" beforeDir="false" afterPath="$PROJECT_DIR$/saas-web/src/components/Users.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +44,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/saas-web/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="182">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding>
+                <element signature="e#161#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saas-web/src/components/Header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saas-web/src/components/Footer.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -49,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/saas-web/src/components/Users.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="469">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -81,8 +106,10 @@
       <list>
         <option value="$PROJECT_DIR$/saas-web/index.html" />
         <option value="$PROJECT_DIR$/saas-web/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/saas-web/src/components/Users.vue" />
         <option value="$PROJECT_DIR$/saas-web/src/main.js" />
+        <option value="$PROJECT_DIR$/saas-web/src/components/Users.vue" />
+        <option value="$PROJECT_DIR$/saas-web/src/components/Footer.vue" />
+        <option value="$PROJECT_DIR$/saas-web/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/saas-web/src/App.vue" />
       </list>
     </option>
@@ -178,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585103064852</updated>
       <workItem from="1585103069130" duration="1679000" />
-      <workItem from="1585104790799" duration="1958000" />
+      <workItem from="1585104790799" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1585106588304</created>
@@ -187,11 +214,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585106588304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="上传用于开发测试">
+      <created>1585106768301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585106768301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3637000" />
+    <option name="totallyTimeSpent" value="4608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,6 +238,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2728" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,7 +275,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="t" />
-    <option name="LAST_COMMIT_MESSAGE" value="t" />
+    <MESSAGE value="上传用于开发测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传用于开发测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/saas-web/README.md">
@@ -274,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saas-web/src/components/Users.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/saas-web/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -291,10 +320,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saas-web/src/components/Users.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saas-web/src/components/Footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saas-web/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/saas-web/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="182">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#161#199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
